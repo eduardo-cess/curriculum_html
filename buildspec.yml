@@ -4,3 +4,10 @@ phases:
   build:
     commands:
       - echo hello world!!!
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: base_location
+  name: BuildOutput
+  discard-paths: no
