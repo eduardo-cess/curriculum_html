@@ -8,6 +8,6 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: base_location
+  base-directory: 'aws-cicd-github-codepipelineartifactstore-19stan6g1p0sp'
   name: BuildOutput
   discard-paths: no
